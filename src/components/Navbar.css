@@ -1,0 +1,122 @@
+.navbar {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(1, 100%);
+	width: 100%;
+	height: 15vh;
+	padding-top: 1rem;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+.navbar__navigation {
+	grid-column: 4/ 2;
+	display: flex;
+	gap: 40px;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar__myphoto img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.navbar__mylogo {
+	display: flex;
+	gap: 10px;
+}
+.navbar__logo {
+	font-size: 1.5rem;
+}
+.navbar__darkmode-icon img {
+	width: 50px;
+	height: 50px;
+}
+
+.navbar__darkmode {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1rem;
+}
+.navbar__darkmode-icon {
+	position: relative;
+	width: 85px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	background-color: rgb(37, 48, 77);
+	cursor: pointer;
+}
+.navbar__darkmode-icon-dark,
+.navbar__darkmode-icon-light {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 6px;
+	width: 30px;
+	height: 28px;
+	background-color: white;
+	border-radius: 50%;
+	display: block;
+}
+.navbar__darkmode-icon-light {
+	right: 6px;
+	opacity: 0;
+}
+
+.moon,
+.sun {
+	margin-top: 3px;
+	font-size: 1.2rem;
+}
+.off-animation {
+	animation: offmoon 0.3s forwards;
+}
+.on-animation {
+	animation: omoon 0.3s forwards;
+}
+.on-sun-animation {
+	animation: onsun 0.3s forwards;
+}
+.off-sun-animation {
+	animation: offsun 0.3s forwards;
+}
+
+@keyframes offmoon {
+	from {
+		transform: translate(0);
+	}
+	to {
+		transform: translate(40px);
+		opacity: 0;
+	}
+}
+@keyframes onmoon {
+	from {
+		transform: translate(40px);
+		opacity: 0;
+	}
+	to {
+		transform: translate(0);
+		opacity: 1;
+	}
+}
+@keyframes onsun {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes offsun {
+	from {
+		transform: translate(0);
+		opacity: 1;
+	}
+	to {
+		transform: translate(-40px);
+		opacity: 0;
+	}
+}
