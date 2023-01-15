@@ -8,7 +8,7 @@ import { createContext } from 'react';
 export const ThemeContext = createContext(null);
 
 function App() {
-	const [mode, setMode] = useState('dark');
+	const [mode, setMode] = useState('light');
   
 	const modeHandler = () => {
 		setMode((curr) => (curr === 'light' ? 'dark' : 'light'));
@@ -30,3 +30,5 @@ function App() {
 }
 
 export default App;
+
+// usunać ikonki reacta jesli nie uzyje
