@@ -8,7 +8,7 @@
 		rgb(2, 1, 17) 15%,
 		rgb(58, 63, 75) 100%
 	);
-	--font-color: rgb(238, 220, 183);
+	--font-color: #eed14e;
 	--buttons-color: rgb(243, 213, 152);
 	--buttons-background: linear-gradient(267deg, #eaec86 20%, #e6c11f 100%);
 	--buttons-hover-color: #e38589;
