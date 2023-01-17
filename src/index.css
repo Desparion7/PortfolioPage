@@ -80,7 +80,18 @@ code {
 .move {
 	animation: background-move 60s infinite ease;
 }
+.scale-up-center {
+	animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
 
+@keyframes scale-up-center {
+	0% {
+		transform: scale(0.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
 @keyframes background-move {
 	0% {
 		transform: translateX(0px);
@@ -103,7 +114,7 @@ code {
 	.move {
 		animation: none;
 	}
-	.background{
+	.background {
 		right: 0;
 	}
 }

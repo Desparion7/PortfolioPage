@@ -3,6 +3,7 @@ import Home from './screen/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Aboutme from './screen/Aboutme';
+import Myprojects from './screen/Myprojects';
 import { useState } from 'react';
 import { createContext } from 'react';
 
@@ -26,6 +27,7 @@ function App() {
 					<Routes>
 						<Route path='/' element={<Home />}></Route>
 						<Route path='/aboutme' element={<Aboutme />}></Route>
+						<Route path='/myprojects' element={<Myprojects />}></Route>
 					</Routes>
 				</main>
 				<Footer>sad</Footer>

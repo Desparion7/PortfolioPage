@@ -18,7 +18,7 @@ const Home = () => {
 	return (
 		<div className='home'>
 			<audio src='./images/keys.mp3' id='audio-keys'></audio>
-			<div className='home__container'>
+			<div className='home__container scale-up-center '>
 				{!startTyping && (
 					<div className='home__start'>
 						<button className='home__start-btn' onClick={typing}>

@@ -10,10 +10,10 @@ const Aboutme = () => {
 		context.setShowBar(true);
 	};
 	return (
-		<div className='aboutme' onClick={showBars}>
+		<div className='aboutme scale-up-center' onClick={showBars}>
 			<div className='aboutme__container'>
-				<div className='aboutme__title'>Something about me:</div>
-				<div className='aboutme__text'>
+				<div className='aboutme__title '>Something about me:</div>
+				<div className='aboutme__text '>
 					Many hours spent on learning and projects allowed me to gain good
 					knowledge in the field of Java Script, React (Redux, Router), CSS,
 					HTML. I am constantly developing and expanding my experience. I focus
@@ -22,31 +22,31 @@ const Aboutme = () => {
 				</div>
 				<div className='aboutme__title'>technologies I use</div>
 				<div className='aboutme__text logos'>
-					<div className='aboutme__logo'>
+					<div className='aboutme__logo bounce-top4'>
 						<img src='./images/html.png' alt='html logo' />
 						<p>Html</p>
 					</div>
-					<div className='aboutme__logo'>
+					<div className='aboutme__logo bounce-top3 '>
 						<img src='./images/js.png' alt='js logo' />
 						<p>JavaScript</p>
 					</div>
-					<div className='aboutme__logo'>
+					<div className='aboutme__logo bounce-top2 '>
 						<img src='./images/css.png' alt='css logo' />
 						<p>CSS</p>
 					</div>
-					<div className='aboutme__logo node'>
+					<div className='aboutme__logo bounce-top1  node'>
 						<img src='./images/node.png' alt='node logo' />
 						<p>Node.js</p>
 					</div>
-					<div className='aboutme__logo'>
+					<div className='aboutme__logo bounce-top2 '>
 						<img src='./images/react.png' alt='react logo' />
 						<p>React</p>
 					</div>
-					<div className='aboutme__logo'>
+					<div className='aboutme__logo bounce-top3 '>
 						<img src='./images/mongo.png' alt='mongo logo' />
 						<p>MongoDb</p>
 					</div>
-					<div className='aboutme__logo'>
+					<div className='aboutme__logo bounce-top4 '>
 						<img
 							src='./images/express.png'
 							className='express'
@@ -57,10 +57,10 @@ const Aboutme = () => {
 				</div>
 				<div className='aboutme__title'>My work experience :</div>
 				<div className='aboutme__text'>
-					- 2019-2021| Management drivers work| TROPIK S.C
+					- 2016 -2023| Running an online store| MODEZP MATEUSZ WOŚ
 				</div>
 				<div className='aboutme__text'>
-					- 2016 -2023| Running an online store| MODEZP MATEUSZ WOŚ
+					- 2019-2021| Management drivers work| TROPIK S.C
 				</div>
 				<div className='aboutme__text'>
 					- 2011-2016| Logistic| Rzeszów University of Technology

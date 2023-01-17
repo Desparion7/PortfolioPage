@@ -36,6 +36,7 @@
 	cursor: pointer;
 	transition: 1s;
 	z-index: 10;
+	overflow: hidden;
 }
 .home__start-btn:after {
 	content: '';
@@ -48,7 +49,7 @@
 	opacity: 0;
 	border-radius: 10px;
 	transition: all 0.5s ease-in-out;
-	z-index: -1;
+	z-index: -2;
 }
 .home__start-btn:hover {
 	position: relative;
@@ -56,6 +57,19 @@
 }
 .home__start-btn:hover:after {
 	opacity: 1;
+}
+.home__start-btn::before {
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 10px;
+	background-color: rgba(255, 255, 255, 0.63);
+	transform: rotate(60deg) translateY(150px) translateX(-40px);
+	z-index: -1;
+	transition: 1s;
+}
+.home__start-btn:hover::before {
+	transform: rotate(60deg) translateY(-150px) translateX(-40px);
 }
 .home__container p {
 	margin-bottom: 1rem;
