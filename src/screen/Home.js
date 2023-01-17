@@ -39,9 +39,9 @@ const Home = () => {
 						<Typewriter
 							onInit={(typewriter) => {
 								typewriter
-									.changeDelay(119.5)
+									.changeDelay(120)
 									.typeString(
-										`Welcome on my page! My name is Mateusz. I'm a beginner front-end web developer. Check out my page to  know me better.`
+										`Welcome on my page! My name is Mateusz. I am a beginner front-end web developer. Check out my page to  know me better.`
 									)
 									.start();
 							}}
