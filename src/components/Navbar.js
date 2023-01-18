@@ -66,37 +66,48 @@ const NavBar = () => {
 							</div>
 							{mobileMenu && (
 								<div className='navbar__mobile-box open-menu  ' ref={menuRef}>
-									<Link to='/aboutme'>
+									<Link to='/PortfolioPage/aboutme'>
 										<div className='navbar__mobile-option gradient-text'>
 											about me
 										</div>
 									</Link>
-									<Link to='/myprojects'>
+									<Link to='/PortfolioPage/myprojects'>
 										<div className='navbar__mobile-option gradient-text'>
 											my projects
 										</div>
 									</Link>
-
-									<div className='navbar__mobile-option mobile-gitlink gradient-text'>
-										github
-									</div>
+									<a
+										href='https://github.com/Desparion7'
+										target='_blank'
+										rel='noreferrer'
+									>
+										<div className='navbar__mobile-option mobile-gitlink gradient-text'>
+											github
+										</div>
+									</a>
 								</div>
 							)}
 						</div>
 						<div className='navbar__desktop'>
-							<Link to='/aboutme'>
+							<Link to='/PortfolioPage/aboutme'>
 								<div className='navbar__desktop-option gradient-text'>
 									<div>about me</div>
 								</div>
 							</Link>
-							<Link to='/myprojects'>
+							<Link to='/PortfolioPage/myprojects'>
 								<div className='navbar__desktop-option gradient-text'>
 									my projects
 								</div>
 							</Link>
-							<div className='navbar__desktop-option gradient-text'>
-								<i className='fa-brands fa-github'></i> github
-							</div>
+							<a
+								href='https://github.com/Desparion7'
+								target='_blank'
+								rel='noreferrer'
+							>
+								<div className='navbar__desktop-option gradient-text'>
+									<i className='fa-brands fa-github'></i> github
+								</div>
+							</a>
 						</div>
 					</div>
 				)}
@@ -111,7 +122,7 @@ const NavBar = () => {
 								? 'navbar__darkmode-button-light on-sun-animation'
 								: 'navbar__darkmode-button-light off-sun-animation'
 						}`}
-						src='./images/sun.png
+						src='/PortfolioPage/images/sun.png
 					'
 						alt='sun'
 					/>
@@ -123,8 +134,8 @@ const NavBar = () => {
 								? 'navbar__darkmode-button-dark off-animation'
 								: 'navbar__darkmode-button-dark on-animation'
 						}`}
-						src='./images/moon.png'
-						alt=''
+						src='/PortfolioPage/images/moon.png'
+						alt='moon'
 					/>
 				</button>
 			</div>

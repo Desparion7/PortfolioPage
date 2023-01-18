@@ -17,7 +17,7 @@ const Home = () => {
 
 	return (
 		<div className='home'>
-			<audio src='./images/keys.mp3' id='audio-keys'></audio>
+			<audio src='/PortfolioPage/images/keys.mp3' id='audio-keys'></audio>
 			<div className='home__container scale-up-center '>
 				{!startTyping && (
 					<div className='home__start'>
@@ -31,7 +31,7 @@ const Home = () => {
 					<>
 						<div className='home__myphoto'>
 							<img
-								src='./images/my-photo.jpg'
+								src='/PortfolioPage/images/my-photo.jpg'
 								alt='porfilphoto'
 								className='opacity-class'
 							></img>

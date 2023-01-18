@@ -25,9 +25,9 @@ function App() {
 				<Navbar></Navbar>
 				<main>
 					<Routes>
-						<Route path='/' element={<Home />}></Route>
-						<Route path='/aboutme' element={<Aboutme />}></Route>
-						<Route path='/myprojects' element={<Myprojects />}></Route>
+						<Route path='/PortfolioPage' element={<Home />}></Route>
+						<Route path='/PortfolioPage/aboutme' element={<Aboutme />}></Route>
+						<Route path='/PortfolioPage/myprojects' element={<Myprojects />}></Route>
 					</Routes>
 				</main>
 				<Footer>sad</Footer>

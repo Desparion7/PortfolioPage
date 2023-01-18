@@ -43,7 +43,7 @@ const Myprojects = () => {
 						>
 							Git
 						</a>
-						<Link to='/myprojects/modezp' className='myprojects__projekt-link '>
+						<Link to='/PortfolioPage/myprojects/modezp' className='myprojects__projekt-link '>
 							<div className='myprojects__projekt-btn'>More info</div>
 						</Link>
 					</div>
@@ -79,7 +79,7 @@ const Myprojects = () => {
 							Git
 						</a>
 						<Link
-							to='/myprojects/Photographer'
+							to='/PortfolioPage/myprojects/Photographer'
 							className='myprojects__projekt-link '
 						>
 							<div className='myprojects__projekt-btn'>More info</div>
@@ -114,7 +114,7 @@ const Myprojects = () => {
 						>
 							Git
 						</a>
-						<Link to='/myprojects/rps' className='myprojects__projekt-link '>
+						<Link to='/PortfolioPage/myprojects/rps' className='myprojects__projekt-link '>
 							<div className='myprojects__projekt-btn'>More info</div>
 						</Link>
 					</div>
@@ -147,7 +147,7 @@ const Myprojects = () => {
 						>
 							Git
 						</a>
-						<Link to='/myprojects/where' className='myprojects__projekt-link '>
+						<Link to='/PortfolioPage/myprojects/where' className='myprojects__projekt-link '>
 							<div className='myprojects__projekt-btn'>More info</div>
 						</Link>
 					</div>
@@ -180,7 +180,7 @@ const Myprojects = () => {
 						>
 							Git
 						</a>
-						<Link to='/myprojects/gallow' className='myprojects__projekt-link '>
+						<Link to='/PortfolioPage/myprojects/gallow' className='myprojects__projekt-link '>
 							<div className='myprojects__projekt-btn'>More info</div>
 						</Link>
 					</div>
