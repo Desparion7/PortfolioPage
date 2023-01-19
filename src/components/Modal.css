@@ -25,6 +25,7 @@
 	background-color: transparent;
 	cursor: pointer;
 	transition: transform 0.3s;
+	border: none;
 }
 .close-modal-btn:hover {
 	transform: scale(1.3);

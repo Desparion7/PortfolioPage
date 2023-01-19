@@ -19,7 +19,7 @@ const ModezpShop = () => {
 				<Modal fullImg={imgSrc} closeModal={closeModalHandler}></Modal>
 			)}
 			<div className='project'>
-				<div className='project__description-container scale-up-center'>
+				<div className='project__description-container '>
 					<div className='project__description-container-info'>
 						<div className='project__title'>Modezp-Shop</div>
 						<div className='project__link-page'>
@@ -29,17 +29,17 @@ const ModezpShop = () => {
 								target='_blank'
 								rel='noreferrer'
 							>
-								https://desparion7.github.io/Modezp-Shop-Frontend
+									GO TO PAGE
 							</a>
 						</div>
 						<div className='project__link-git'>
-							<span>Link: </span>
+							<span>Git: </span>
 							<a
 								href='https://github.com/Desparion7/Modezp-Shop'
 								target='_blank'
 								rel='noreferrer'
 							>
-								https://github.com/Desparion7/Modezp-Shop
+								CHECK THE CODE
 							</a>
 						</div>
 					</div>
