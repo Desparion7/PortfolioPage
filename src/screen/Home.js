@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
-import { ThemeContext } from '../App';
-import { useContext } from 'react';
 import './Home.css';
 
 const Home = () => {
-	const context = useContext(ThemeContext);
 	const [startTyping, setStartTyping] = useState(false);
 
 	const typing = () => {
 		setStartTyping(true);
-		context.setShowBar(true);
 		const audio = document.querySelector('#audio-keys');
 		audio.play();
 	};

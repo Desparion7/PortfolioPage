@@ -10,7 +10,7 @@
 	align-items: center;
 	flex-wrap: wrap;
 }
-.myprojects__container-projekt {
+.myprojects__container-project {
 	margin: 1.5rem;
 	width: 400px;
 	height: 310px;
@@ -20,30 +20,30 @@
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 1px solid var(--buttons-color);
 }
-.myprojects__projekt-title {
+.myprojects__project-title {
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	margin: 0.5rem 0;
 }
-.myprojects__projekt-tech {
+.myprojects__project-tech {
 	margin-bottom: 0.5rem;
 }
-.myprojects__container-projekt img {
+.myprojects__container-project img {
 	width: 300px;
 	height: 150px;
 	padding: 0.5rem;
 	border-radius: 20px;
 }
-.myprojects__projekt-links {
+.myprojects__project-links {
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 0.5rem;
 }
-.myprojects__projekt-link {
+.myprojects__project-link {
 	color: white;
 	text-decoration: none;
 }
-.myprojects__projekt-btn {
+.myprojects__project-btn {
 	position: relative;
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
@@ -58,7 +58,7 @@
 	z-index: 10;
 	overflow: hidden;
 }
-.myprojects__projekt-btn:after {
+.myprojects__project-btn:after {
 	content: '';
 	position: absolute;
 	left: 0px;
@@ -67,18 +67,17 @@
 	bottom: 0px;
 	background-image: var(--buttons-background);
 	opacity: 0;
-	border-radius: 10px;
 	transition: all 0.5s ease-in-out;
 	z-index: -2;
 }
-.myprojects__projekt-btn:hover {
+.myprojects__project-btn:hover {
 	position: relative;
 	color: black;
 }
-.myprojects__projekt-btn:hover:after {
+.myprojects__project-btn:hover:after {
 	opacity: 1;
 }
-.myprojects__projekt-btn::before {
+.myprojects__project-btn::before {
 	content: '';
 	position: absolute;
 	width: 200px;
@@ -88,6 +87,17 @@
 	z-index: -1;
 	transition: 1s;
 }
-.myprojects__projekt-btn:hover::before {
+.myprojects__project-btn:hover::before {
 	transform: rotate(60deg) translateY(-150px) translateX(-40px);
+}
+
+@media only screen and (max-width: 375px) {
+	.myprojects__project-btn {
+		font-size: 1rem;
+		padding: 0.4rem 0.9rem;
+	}
+
+	.myprojects__container-project img {
+		width: 240px;
+	}
 }

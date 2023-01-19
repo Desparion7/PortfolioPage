@@ -1,0 +1,35 @@
+.modal {
+	position: fixed;
+	overflow: hidden;
+	overflow-block: scroll;
+	width: 100vw;
+	height: 100vh;
+	border-radius: 10px;
+}
+.backdrop {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.808);
+	z-index: 999;
+}
+.close-modal-btn {
+	position: absolute;
+	top: 50px;
+	right: 100px;
+	background-color: transparent;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+.close-modal-btn:hover {
+	transform: scale(1.3);
+}
+.close-modal-btn img {
+	width: 60px;
+	height: 60px;
+}

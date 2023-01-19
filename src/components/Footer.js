@@ -14,7 +14,7 @@ const Footer = () => {
 						<img src='/PortfolioPage/images/phone.png' alt='phone-icon'></img>
 						<p>+48 792 390 226</p>
 					</div>
-					<div className='gradient-text-footer'>
+					<div className='footer__copyright gradient-text-footer'>
 						Copyright &copy; Mateusz Woś
 					</div>
 					<div className='footer__icon'>

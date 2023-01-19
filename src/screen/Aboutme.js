@@ -1,16 +1,11 @@
 import React from 'react';
-import { ThemeContext } from '../App';
-import { useContext } from 'react';
 import './Aboutme.css';
 
 const Aboutme = () => {
-	const context = useContext(ThemeContext);
 
-	const showBars = () => {
-		context.setShowBar(true);
-	};
+
 	return (
-		<div className='aboutme scale-up-center' onClick={showBars}>
+		<div className='aboutme scale-up-center'>
 			<div className='aboutme__container'>
 				<div className='aboutme__title '>Something about me:</div>
 				<div className='aboutme__text '>
