@@ -8,7 +8,9 @@ const Home = () => {
 	const typing = () => {
 		setStartTyping(true);
 		const audio = document.querySelector('#audio-keys');
+		const player = document.querySelector('#player');
 		audio.play();
+		player.play();
 	};
 
 	return (

@@ -10,6 +10,7 @@ const NavBar = () => {
 	const shownavigation = context.showBar;
 	const [active, setActive] = useState(null);
 	const [mobileMenu, setMobileMenu] = useState(false);
+	const [audio, setAudio] = useState(true);
 
 	const menuBurgerRef = useRef();
 	const menuRef = useRef();
@@ -29,6 +30,9 @@ const NavBar = () => {
 				document.removeEventListener('mousedown', handler);
 			};
 		}
+		window.addEventListener('scroll', () => {
+			setMobileMenu(false);
+		});
 	});
 
 	const darkModeHandler = () => {
@@ -50,10 +54,19 @@ const NavBar = () => {
 			setMobileMenu(true);
 		}
 	};
+	const muteHandler = () => {
+		const player = document.querySelector('#player');
+		setAudio(!audio);
+		player.muted = audio;
+		if (audio) {
+			player.play();
+		}
+	};
 
 	return (
 		<>
 			<div className='navbar'>
+				<audio src='/PortfolioPage/sounds/music.mp3' id='player' loop></audio>
 				{shownavigation && (
 					<div className='navbar__box slide-down'>
 						<div className='navbar__mobile '>
@@ -113,6 +126,16 @@ const NavBar = () => {
 				)}
 			</div>
 			<div className='navbar__darkmode'>
+				<button onClick={muteHandler} className='pause-audio-btn'>
+					<img
+						src={
+							audio
+								? '/PortfolioPage/images/sound2.png'
+								: '/PortfolioPage/images/sound1.png'
+						}
+						alt='audio'
+					></img>
+				</button>
 				<button className='navbar__darkmode-button' onClick={darkModeHandler}>
 					<img
 						className={`${

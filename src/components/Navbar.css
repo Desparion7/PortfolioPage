@@ -46,6 +46,13 @@
 	padding: 1rem;
 	z-index: 10;
 }
+.pause-audio-btn {
+	position: relative;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+}
 
 .navbar__darkmode-button {
 	position: relative;
@@ -56,7 +63,10 @@
 	background: transparent;
 	cursor: pointer;
 }
-
+.pause-audio-btn img {
+	width: 40px;
+	height: 27px;
+}
 .navbar__darkmode-button img {
 	width: 40px;
 	height: 30px;
@@ -93,6 +103,10 @@
 	.navbar__darkmode-button {
 		width: 65px;
 		height: 30px;
+	}
+	.pause-audio-btn img {
+		width: 27px;
+		height: 23px;
 	}
 	.navbar__darkmode-button img {
 		width: 30px;

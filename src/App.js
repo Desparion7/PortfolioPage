@@ -23,7 +23,7 @@ function App() {
 	};
 
 	return (
-		<ThemeContext.Provider value={{ modeHandler, showBar}}>
+		<ThemeContext.Provider value={{ modeHandler, showBar }}>
 			<div
 				className='app'
 				onClick={() => {
