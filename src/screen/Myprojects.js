@@ -20,7 +20,7 @@ const Myprojects = () => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<img src='/PortfolioPage/images/Modezp-shop.png' alt='shop-page'></img>
+						<img src='/PortfolioPage/images/modezp.png' alt='shop-page'></img>
 					</a>
 					<div className='myprojects__project-links'>
 						<a
