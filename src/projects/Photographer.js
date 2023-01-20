@@ -90,7 +90,7 @@ const Photographer = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/photografer1.jpg'
+										src='/PortfolioPage/images/photografer1.png'
 										alt='part of the page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -107,7 +107,7 @@ const Photographer = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/photografer2.jpg'
+										src='PortfolioPage/images/photografer1.png'
 										alt='part of the page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -124,7 +124,7 @@ const Photographer = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/photografer3.jpg'
+										src='images/photografer3.jpg'
 										alt='part of the page'
 										onClick={showFullScreenHandler}
 									></img>
