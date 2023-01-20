@@ -27,7 +27,7 @@ const Home = () => {
 					<>
 						<div className='home__myphoto'>
 							<img
-								src='PortfolioPage/images/my-photo.jpg'
+								src='/PortfolioPage/images/my-photo.png'
 								alt='porfilphoto'
 								className='opacity-class'
 							></img>

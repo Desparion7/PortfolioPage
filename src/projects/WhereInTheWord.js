@@ -87,7 +87,7 @@ const WhereInTheWord = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/where.jpg'
+										src='/PortfolioPage/images/where.png'
 										alt='part of the page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -102,7 +102,7 @@ const WhereInTheWord = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/where2.jpg'
+										src='/PortfolioPage/images/where2.png'
 										alt='part of the page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -117,7 +117,7 @@ const WhereInTheWord = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/where3.jpg'
+										src='/PortfolioPage/images/where3.png'
 										alt='part of the page'
 										onClick={showFullScreenHandler}
 									></img>

@@ -20,7 +20,7 @@ const Myprojects = () => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<img src='./images/Modezp-shop.jpg' alt='shop-page'></img>
+						<img src='/PortfolioPage/images/Modezp-shop.png' alt='shop-page'></img>
 					</a>
 					<div className='myprojects__project-links'>
 						<a
@@ -55,7 +55,7 @@ const Myprojects = () => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<img src='./images/Photografer.jpg' alt='photographer page'></img>
+						<img src='/PortfolioPage/images/Photografer.png' alt='photographer page'></img>
 					</a>
 					<div className='myprojects__project-links'>
 						<a
@@ -91,7 +91,7 @@ const Myprojects = () => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<img src='./images/rps.jpg' alt='Rock, paper, scissors page'></img>
+						<img src='/PortfolioPage/images/rps.png' alt='Rock, paper, scissors page'></img>
 					</a>
 					<div className='myprojects__project-links'>
 						<a
@@ -124,7 +124,7 @@ const Myprojects = () => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<img src='./images/where.jpg' alt='Where in the word website'></img>
+						<img src='/PortfolioPage/images/where.png' alt='Where in the word website'></img>
 					</a>
 					<div className='myprojects__project-links'>
 						<a
@@ -157,7 +157,7 @@ const Myprojects = () => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<img src='PortfolioPage/images/gallow.jpg' alt='gallow game'></img>
+						<img src='/PortfolioPage/images/gallow.png' alt='gallow game'></img>
 					</a>
 					<div className='myprojects__project-links'>
 						<a

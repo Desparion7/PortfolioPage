@@ -86,7 +86,7 @@ const Gallow = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/gallow.jpg'
+										src='/PortfolioPage/images/gallow.png'
 										alt='part of the page'
 										onClick={showFullScreenHandler}
 									></img>

@@ -118,7 +118,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/modezp1.jpg'
+										src='/PortfolioPage/images/modezp1.png'
 										alt='part of the shop page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -136,7 +136,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/modezp2.jpg'
+										src='/PortfolioPage/images/modezp2.png'
 										alt='part of the shop page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -155,7 +155,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/modezp3.jpg'
+										src='/PortfolioPage/images/modezp3.png'
 										alt='part of the shop page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -173,7 +173,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/modezp4.jpg'
+										src='/PortfolioPage/images/modezp4.png'
 										alt='part of the shop page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -190,7 +190,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/modezp5.jpg'
+										src='/PortfolioPage/images/modezp5.png'
 										alt='part of the shop page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -207,7 +207,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/modezp6.jpg'
+										src='/PortfolioPage/images/modezp6.png'
 										alt='part of the shop page'
 										onClick={showFullScreenHandler}
 									></img>

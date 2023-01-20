@@ -88,7 +88,7 @@ const RockPaperScissors = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/rps.jpg'
+										src='/PortfolioPage/images/rps.png'
 										alt='part of the page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -103,7 +103,7 @@ const RockPaperScissors = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/rps2.jpg'
+										src='/PortfolioPage/images/rps2.png'
 										alt='part of the page'
 										onClick={showFullScreenHandler}
 									></img>
