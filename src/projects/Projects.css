@@ -123,11 +123,27 @@
 }
 @media only screen and (max-width: 420px) {
 	.project__description-container-step {
-		width: 280px;
+		width: 370px;
 		min-height: 350px;
 	}
 	.project__description-img img {
-		width: 230px;
+		width: 280px;
 		height: 180px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.project__description-container-step {
+		width: 340px;
+	}
+	.project__description-img img {
+		width: 270px;
+	}
+}
+@media only screen and (max-width: 350px) {
+	.project__description-container-step {
+		width: 290px;
+	}
+	.project__description-img img {
+		width: 230px;
 	}
 }
