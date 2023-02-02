@@ -45,6 +45,41 @@ const Myprojects = () => {
 					</div>
 				</div>
 				<div className='myprojects__container-project scale-up-center'>
+					<div className='myprojects__project-title'>CarsWoś</div>
+					<div className='myprojects__project-tech'>
+						 React, MongoDB, Express, Node.js
+					</div>
+					<a
+						className='myprojects__project-link'
+						href='https://desparion7.github.io/WorkShop_frontend/'
+						target='_blank'
+						rel='noreferrer'
+					>
+						<img src='/PortfolioPage/images/carswos1.png' alt='carswos-page'></img>
+					</a>
+					<div className='myprojects__project-links'>
+						<a
+							className='myprojects__project-link myprojects__project-btn'
+							href='https://desparion7.github.io/WorkShop_frontend/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Page
+						</a>
+						<a
+							className='myprojects__project-link myprojects__project-btn'
+							href='https://github.com/Desparion7/WorkShop_frontend'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Git
+						</a>
+						<Link to='/PortfolioPage/myprojects/carswos' className='myprojects__project-link '>
+							<div className='myprojects__project-btn'>More info</div>
+						</Link>
+					</div>
+				</div>
+				<div className='myprojects__container-project scale-up-center'>
 					<div className='myprojects__project-title'>
 						Photographer's website
 					</div>

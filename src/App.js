@@ -9,6 +9,7 @@ import Gallow from './projects/Gallow';
 import RockPaperScissors from './projects/RockPaperScissors';
 import Photographer from './projects/Photographer';
 import ModezpShop from './projects/ModezpShop';
+import CarWos from './projects/CarsWos';
 import { useState } from 'react';
 import { createContext } from 'react';
 
@@ -44,6 +45,10 @@ function App() {
 						<Route
 							path='/PortfolioPage/myprojects/modezp'
 							element={<ModezpShop />}
+						></Route>
+						<Route
+							path='/PortfolioPage/myprojects/carswos'
+							element={<CarWos />}
 						></Route>
 						<Route
 							path='/PortfolioPage/myprojects/photographer'
