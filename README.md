@@ -1,4 +1,5 @@
 
-#Access to by like a admin :
-#Login: Mateusz
-#Password: 1234$
+# Access by admin
+# Login: Mateusz
+# password: 1234$
+
