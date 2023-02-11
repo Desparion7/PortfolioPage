@@ -110,7 +110,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/carswos2.png'
+										src='/PortfolioPage/images/carswos2.PNG'
 										alt='carswos'
 										onClick={showFullScreenHandler}
 									></img>
@@ -130,7 +130,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/carswos3.png'
+										src='/PortfolioPage/images/carswos3.PNG'
 										alt='part of the shop page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -147,7 +147,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/carswos4.png'
+										src='/PortfolioPage/images/carswos4.PNG'
 										alt='part of the shop page'
 										onClick={showFullScreenHandler}
 									></img>
@@ -164,7 +164,7 @@ const ModezpShop = () => {
 								</p>
 								<div className='project__description-img'>
 									<img
-										src='/PortfolioPage/images/carswos5.png'
+										src='/PortfolioPage/images/carswos5.PNG'
 										alt='part of the shop page'
 										onClick={showFullScreenHandler}
 									></img>
