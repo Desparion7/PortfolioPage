@@ -203,7 +203,7 @@ const ModezpShop = () => {
 									Products rating system.
 								</p>
 								<p className='project__description-text'>
-									Afther you bought you can rat product. One user can rate a given product only once.
+									After you bought you can rate product. One user can rate a given product only once.
 								</p>
 								<div className='project__description-img'>
 									<img

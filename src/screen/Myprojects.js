@@ -55,7 +55,7 @@ const Myprojects = () => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<img src='/PortfolioPage/images/carswos1.png' alt='carswos-page'></img>
+						<img src='/PortfolioPage/images/carswos1.PNG' alt='carswos-page'></img>
 					</a>
 					<div className='myprojects__project-links'>
 						<a
